@@ -35,29 +35,32 @@
             // lblid
             // 
             lblid.AutoSize = true;
-            lblid.Location = new Point(14, 10);
+            lblid.Location = new Point(10, 6);
+            lblid.Margin = new Padding(2, 0, 2, 0);
             lblid.Name = "lblid";
-            lblid.Size = new Size(30, 25);
+            lblid.Size = new Size(18, 15);
             lblid.TabIndex = 0;
             lblid.Text = "ID";
             // 
             // lblnama
             // 
             lblnama.AutoSize = true;
-            lblnama.Location = new Point(14, 47);
+            lblnama.Location = new Point(10, 28);
+            lblnama.Margin = new Padding(2, 0, 2, 0);
             lblnama.Name = "lblnama";
-            lblnama.Size = new Size(59, 25);
+            lblnama.Size = new Size(39, 15);
             lblnama.TabIndex = 1;
             lblnama.Text = "Nama";
             lblnama.Click += label1_Click;
             // 
             // FormSiswa
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(785, 360);
+            ClientSize = new Size(550, 332);
             Controls.Add(lblnama);
             Controls.Add(lblid);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "FormSiswa";
             Text = "FormSiswa";
             ResumeLayout(false);

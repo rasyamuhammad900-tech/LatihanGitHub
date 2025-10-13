@@ -21,5 +21,10 @@ namespace LatihanGitHub
         {
 
         }
+
+        private void cblaki_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

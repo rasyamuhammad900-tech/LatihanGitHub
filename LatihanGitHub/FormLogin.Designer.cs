@@ -49,7 +49,6 @@
             label1.Size = new Size(42, 15);
             label1.TabIndex = 0;
             label1.Text = "LOGIN";
-             label1.Click += this.label1_Click;
             // 
             // label2
             // 
@@ -151,7 +150,6 @@
             Controls.Add(label1);
             Name = "FormLogin";
             Text = "Form Login";
-            Load += this.FormLogin_Load;
             ResumeLayout(false);
             PerformLayout();
         }
